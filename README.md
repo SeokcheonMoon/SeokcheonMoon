@@ -2,7 +2,7 @@
 - 👀 I’m interested in Data Analysis
 - 🌱 I’m currently working on data crawling, data mapping, data preprocessing
 
-## Tech Stack(기술 스택)
+## 📚 Tech Stack 📚
 
 ### Programming
 <img src="https://img.shields.io/badge/-python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/-jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
@@ -19,7 +19,7 @@
 ### IDE
 <img src="https://img.shields.io/badge/-vscode-40AEF0?style=for-the-badge&logo=&logoColor=white"/> <img src="https://img.shields.io/badge/-pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
 
-### Collaboration
+### Collaboration
 <img src="https://img.shields.io/badge/-slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/-docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
 
