@@ -1,7 +1,9 @@
 ## 🍔 Profile 🍔
-- 👋 Hi, I’m @SeokcheonMoon
-- 👀 I’m interested in Data Analysis
-- 🌱 I’m currently working on data crawling, data mapping, data preprocessing
+
+- 👋 Hi, I’m **@SeokcheonMoon**
+- 👀 I’m interested in **Data Analysis**
+- 🌱 I’m currently working on **data crawling**, **data mapping**, **data preprocessing**
+
 
 ## 📚 Tech Stack 📚
 
@@ -21,8 +23,12 @@
 <img src="https://img.shields.io/badge/-slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/-docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
 ## 📈 Stats 📈
-![Seokcheon's github stats](https://github-readme-stats.vercel.app/api?username=seokcheonmoon) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seokcheonmoon&layout=compact)
+![Seokcheon's github stats](https://github-readme-stats.vercel.app/api?username=SeokcheonMoon) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SeokcheonMoon&layout=compact)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=my980519)](https://solved.ac/my980519/)
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSeokcheonMoon&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 <!---
 SeokcheonMoon/SeokcheonMoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
