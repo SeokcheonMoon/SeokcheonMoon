@@ -4,7 +4,7 @@
 - 👀 I’m interested in **Data Analysis**
 - 🌱 I’m currently working on **Data crawling**, **Data mapping**, **Data preprocessing**
 - 📓 I'm studying **Data analysis**, **Data visualization**
-- 🔫 I'm planning to prepare for some certifications(**SMAT**, **Business Intelligence Specialist**, **Survey Analyst...**)
+- 🔫 I'm planning to prepare for some certifications(**Craftsman Information Processing**, **Business Intelligence Specialist**, **Survey Analyst**)
 
 
 ## 📚 Tech Stack 📚
