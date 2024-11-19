@@ -24,6 +24,51 @@
 ### Collaboration
 <img src="https://img.shields.io/badge/-slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/-docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white">
 
+## Project
+### 1. AI_L.K.J
+
+#### 프로젝트명 및 목적
+- Path-finder : 나만의 맞춤형 여행 계획 서비스
+#### 프로젝트 기간
+- 2024.01.09 - 2024.01.17
+#### 사용 툴
+- Python, MongoDB, Selenium
+#### 담당 직무
+- 셀레니움을 활용하여 고속버스와 숙소 예약을 위한 예약 정보 스크래핑
+
+### 2. AI_L.K.J_hubs
+
+#### 프로젝트 목적
+- 데이터 기반 맞춤형 여행 추천 서비스
+#### 프로젝트 기간
+- 2024.02.21 - 2024.03.21
+#### 사용 툴
+- Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
+#### 담당 직무
+- 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
+
+### 3. AI_LKJ_hubs_fastapi
+
+#### 프로젝트 목적
+- 맞춤형 여행 계획 서비스 마케팅 전략 수립
+#### 프로젝트 기간
+- 2024.04.18 ~ 2024.05.22
+#### 사용 툴
+- Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
+#### 담당 직무
+- 웹 사이트의 마케팅 방안 분석
+
+### 4. summoners_war_development_analysis
+
+#### 프로젝트 목적
+- 게임 방향성 제시 및 업데이트 방안 수립
+#### 프로젝트 기간
+- 2024.10.22 ~ 2024. 11.14
+#### 사용 툴
+- Python, Selenium, Pandas, Matplotlib, Konlpy, Seaborn, Colab
+#### 담당 직무
+- 데이터 수집 및 텍스트 분석
+
 ## 📈 Stats 📈
 ![Seokcheon's github stats](https://github-readme-stats.vercel.app/api?username=SeokcheonMoon) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SeokcheonMoon&layout=compact) 
 
