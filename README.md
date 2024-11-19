@@ -26,49 +26,32 @@
 
 ## 🏫Project🏫
 
-### 1. AI_L.K.J
+### 1. Path-finder 1차 (2024.01.09 - 2024.01.17)
+- **목적** : 나만의 맞춤형 여행 계획 서비스
+- **사용 툴** : Python, MongoDB, Selenium
+- **담당 업무** : 셀레니움을 활용한 고속버스, 숙소 예약 정보 스크래핑
+- **파일** : [AI_L.K.J](https://github.com/nohjuhyeon/AI_L.K.J)
 
-#### 프로젝트명 및 목적
-- Path-finder : 나만의 맞춤형 여행 계획 서비스
-#### 프로젝트 기간
-- 2024.01.09 - 2024.01.17
-#### 사용 툴
-- Python, MongoDB, Selenium
-#### 담당 직무
-- 셀레니움을 활용하여 고속버스와 숙소 예약을 위한 예약 정보 스크래핑
+### 2. Path-finder 2차 (2024.02.21 - 2024.03.21)
 
-### 2. AI_L.K.J_hubs
+- **목적** : 데이터 기반 맞춤형 여행 추천 서비스
+- **사용 툴** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
+- **담당 업무** : 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
+- **파일** : [AI_L.K.J_hubs](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
 
-#### 프로젝트 목적
-- 데이터 기반 맞춤형 여행 추천 서비스
-#### 프로젝트 기간
-- 2024.02.21 - 2024.03.21
-#### 사용 툴
-- Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
-#### 담당 직무
-- 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
+### 2. Path-finder 3차 (2024.04.18 ~ 2024.05.22)
 
-### 3. AI_LKJ_hubs_fastapi
+- **목적** : 맞춤형 여행 계획 서비스 마케팅 전략 수립
+- **사용 툴** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
+- **담당 업무** : 웹 사이트의 마케팅 방안 분석
+- **파일** : [AI_LKJ_hubs_fastapi](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
 
-#### 프로젝트 목적
-- 맞춤형 여행 계획 서비스 마케팅 전략 수립
-#### 프로젝트 기간
-- 2024.04.18 ~ 2024.05.22
-#### 사용 툴
-- Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
-#### 담당 직무
-- 웹 사이트의 마케팅 방안 분석
+### 4. 건의사항 분석 프로젝트 (2024.10.22 ~ 2024. 11.14)
 
-### 4. summoners_war_development_analysis
-
-#### 프로젝트 목적
-- 게임 방향성 제시 및 업데이트 방안 수립
-#### 프로젝트 기간
-- 2024.10.22 ~ 2024. 11.14
-#### 사용 툴
-- Python, Selenium, Pandas, Matplotlib, Konlpy, Seaborn, Colab
-#### 담당 직무
-- 데이터 수집 및 텍스트 분석
+- **목적** : 게임 방향성 제시 및 업데이트 방안 수립
+- **사용 툴** : Python, Selenium, Pandas, Matplotlib, Konlpy, Seaborn, Colab
+- **담당 업무** : 데이터 수집 및 텍스트 분석
+- **파일** : [summoners_war_development_analysis](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
 
 ## 📈 Stats 📈
 ![Seokcheon's github stats](https://github-readme-stats.vercel.app/api?username=SeokcheonMoon) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SeokcheonMoon&layout=compact) 
