@@ -4,7 +4,7 @@
 - 👀 I’m interested in **Data Analysis**
 - 🌱 I’m currently working on **Data crawling**, **Data mapping**, **Data preprocessing**
 - 📓 I'm studying **Data analysis**, **Data visualization**
-- 🔫 I'm planning to study for **Statistics**, **Survey Analyst**
+- 🔫 I'm planning to study for **Linux Master**, **Survey Analyst**
 
 
 ## 📚 Tech Stack 📚
@@ -46,7 +46,7 @@
 - **담당 업무** : 웹 사이트의 마케팅 방안 분석
 - **파일** : [AI_LKJ_hubs_fastapi](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
 
-### 4. 건의사항 분석 프로젝트 (2024.10.22 ~ 2024. 11.14)
+### 4. 서머너즈워 기획 프로젝트 (2024.10.22 ~ 2024. 11.14)
 
 - **목적** : 게임 방향성 제시 및 업데이트 방안 수립
 - **사용 툴** : Python, Selenium, Pandas, Matplotlib, Konlpy, Seaborn, Colab
