@@ -39,7 +39,7 @@
 - **담당 업무** : 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
 - **파일** : [AI_L.K.J_hubs](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
 
-### 2. Path-finder 3차 (2024.04.18 ~ 2024.05.22)
+### 3. Path-finder 3차 (2024.04.18 ~ 2024.05.22)
 
 - **목적** : 맞춤형 여행 계획 서비스 마케팅 전략 수립
 - **사용 툴** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
