@@ -28,10 +28,10 @@
 
 ### 1. 심장병 예측 모델 개발 프로젝트 (2024.11.20 ~ 진행 중)
 
-**목적** : 생체 및 생활 데이터를 이용한 심장병 예측 모델 개발
-**스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
-**담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
-**파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
+- **목적** : 생체 및 생활 데이터를 이용한 심장병 예측 모델 개발
+- **스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
+- **담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
+- **파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
 
 ### 2. 서머너즈워 건의사항 분석 및 기획 프로젝트 (2024.10.22 ~ 2024.11.14)
 
