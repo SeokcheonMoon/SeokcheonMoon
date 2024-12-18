@@ -26,44 +26,43 @@
 
 ## 🏫Project🏫
 
-### 1. 심장병 예측 모델 개발 프로젝트 (2024.11.20 ~ 진행 중)
+### 1. Path-finder 1차 (2024.01.09 - 2024.01.17)
 
-- **목적** : 생체 및 생활 데이터를 이용한 심장병 예측 모델 개발
-- **스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
-- **담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
-- **파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
+- **인원** : 4명
+- **목적** : 나만의 맞춤형 여행 계획 서비스 계획
+- **스킬** : Python, MongoDB, Selenium
+- **담당 업무** : 셀레니움을 활용한 고속버스, 숙소 예약 정보 스크래핑
+- **파일** : [AI_L.K.J](https://github.com/nohjuhyeon/AI_L.K.J)
 
-### 2. 서머너즈워 건의사항 분석 및 기획 프로젝트 (2024.10.22 ~ 2024.11.14)
+### 2. Path-finder 2차 (2024.02.21 - 2024.03.21)
+
+- **인원** : 5명
+- **목적** : 데이터 기반 맞춤형 여행 추천 서비스
+- **스킬** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
+- **담당 업무** : 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
+- **파일** : [AI_L.K.J_hubs](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
+
+### 3. Path-finder 3차 (2024.04.18 ~ 2024.05.22)
+
+- **인원** : 6명
+- **목적** : 맞춤형 여행 계획 서비스 마케팅 전략 수립
+- **스킬** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
+- **담당 업무** : 웹 사이트의 마케팅 방안 분석
+- **파일** : [AI_LKJ_hubs_fastapi](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
+
+### 4. 게임 건의사항 분석 및 기획 프로젝트 (2024.10.22 ~ 2024.11.14)
 
 - **목적** : 게임 방향성 제시 및 업데이트 방안 수립
 - **스킬** : Python, Selenium, Pandas, Matplotlib, Konlpy, Seaborn, Colab
 - **담당 업무** : 건의사항 데이터 수집 및 텍스트 분석, 간단한 기획
 - **파일** : [summoners_war_development_analysis](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
 
-### 3. Path-finder 3차 (2024.04.18 ~ 2024.05.22)
+### 5. 심장병 예측 모델 개발 프로젝트 (2024.11.20 ~ 진행 중)
 
-- **목적** : 맞춤형 여행 계획 서비스 마케팅 전략 수립
-- **스킬** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
-- **담당 업무** : 웹 사이트의 마케팅 방안 분석
-- **파일** : [AI_LKJ_hubs_fastapi](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
-
-### 4. Path-finder 2차 (2024.02.21 - 2024.03.21)
-
-- **목적** : 데이터 기반 맞춤형 여행 추천 서비스
-- **스킬** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
-- **담당 업무** : 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
-- **파일** : [AI_L.K.J_hubs](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
-
-### 5. Path-finder 1차 (2024.01.09 - 2024.01.17)
-- **목적** : 나만의 맞춤형 여행 계획 서비스
-- **스킬** : Python, MongoDB, Selenium
-- **담당 업무** : 셀레니움을 활용한 고속버스, 숙소 예약 정보 스크래핑
-- **파일** : [AI_L.K.J](https://github.com/nohjuhyeon/AI_L.K.J)
-
-
-
-
-
+- **목적** : 생체 및 생활 데이터를 이용한 심장병 예측 모델 개발
+- **스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
+- **담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
+- **파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
 
 
 ## 📈 Stats 📈
