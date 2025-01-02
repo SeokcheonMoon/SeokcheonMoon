@@ -1,12 +1,3 @@
-## 🍔 Profile 🍔
-
-- 👋 Hi, I’m **@SeokcheonMoon**
-- 👀 I’m interested in **Data Analysis**
-- 🌱 I’m currently working on **Data crawling**, **Data mapping**, **Data preprocessing**
-- 📓 I'm studying **Data analysis**, **Data visualization**
-- 🔫 I'm planning to study for **Linux Master**, **Survey Analyst**
-
-
 ## 📚 Tech Stack 📚
 
 ### Programming
@@ -63,13 +54,6 @@
 - **스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
 - **담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
 - **파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
-
-
-## 📈 Stats 📈
-![Seokcheon's github stats](https://github-readme-stats.vercel.app/api?username=SeokcheonMoon) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SeokcheonMoon&layout=compact) 
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSeokcheonMoon&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
 
 <!---
 SeokcheonMoon/SeokcheonMoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
