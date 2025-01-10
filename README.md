@@ -48,7 +48,7 @@
 - **담당 업무** : 건의사항 데이터 수집 및 텍스트 분석, 간단한 기획
 - **파일** : [summoners_war_development_analysis](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
 
-### 5. 심장병 예측 모델 개발 프로젝트 (2024.11.20 ~ 진행 중)
+### 5. 심장병 예측 모델 개발 프로젝트 (2024.11.20 ~ 2024.11.26)
 
 - **목적** : 생체 및 생활 데이터를 이용한 심장병 예측 모델 개발
 - **스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
