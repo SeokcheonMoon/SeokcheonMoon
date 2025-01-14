@@ -55,6 +55,13 @@
 - **담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
 - **파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
 
+### 6. 데이콘 - 전기차 가격 예측 해커톤 (2025.01.05 ~)
+
+- **목적** : 가격을 예측하는 AI 알고리즘을 개발
+- **스킬** : Python, Pandas, Seaborn, XGBoost, LightGBM
+- **담당 업무** : 전기차 데이터를 활용한 시각화 및 가격 예측 모델 개발
+- **파일** : [dacon_EV_analysis](https://github.com/SeokcheonMoon/dacon_EV_analysis)
+
 <!---
 SeokcheonMoon/SeokcheonMoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
