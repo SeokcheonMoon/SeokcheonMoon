@@ -1,68 +1,168 @@
-## 📚 Tech Stack 📚
+# 👋 About Me
 
-### Programming
-<img src="https://img.shields.io/badge/-python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/-jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+**Data × AI × Automation**
 
-### Libraries
-<img src="https://img.shields.io/badge/-pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/-selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/-sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white"/> <img src="https://img.shields.io/badge/-scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/-numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/-matplotlib-F37626?style=for-the-badge&logo=&logoColor=white"/> <img src="https://img.shields.io/badge/-seaborn-000000?style=for-the-badge&logo=&logoColor=white"/>
+Python을 기반으로 데이터를 수집·가공하고,
+생성형 AI와 자동화를 활용해 데이터 기반 서비스를 만드는 데 관심이 있습니다.
+
+* 🌐 Web Crawling & Data Engineering
+* 🤖 Generative AI & Prompt Engineering
+* ⚙️ Automation & Service Development
+* 📈 Financial Data & Investing
+
+---
+
+# 💼 Experience
+
+### 고투엑스코리아
+
+**AI뉴스팀 · 사업기획 / 사원·매니저**
+`2025.10 ~ Present`
+
+* 생성형 AI Prompt 설계를 통한 맞춤형 기사 콘텐츠 생성 및 언론사 송출
+* Python 및 바이브 코딩을 활용한 관리자 페이지 개발·기능 개선
+* Selenium, BeautifulSoup, Requests 기반 웹 크롤링 자동화
+* 사업용 데이터 수집·가공 프로세스 자동화
+* 사용자 시나리오 기반 QA 및 서비스 운영
+
+### 프롬에이아이
+
+**언론플랫폼운영 · 인턴/수습**
+`2025.02 ~ 2025.10`
+
+* 생성형 AI Prompt 설계 및 개발을 통한 맞춤형 기사 콘텐츠 생성
+* 네이버 제휴 언론 매체 뉴스 송출 및 콘텐츠 운영
+* 키워드·콘텐츠 전략 수립 및 트렌드 데이터 분석
+* Python 기반 방송 사업 데이터 수집·정제·매핑
+
+### 키토크에이아이
+
+**데이터팀 · 크롤링**
+`2024.06 ~ 2024.11`
+
+* 외부 플랫폼의 영화·연예·여행 관련 사업 데이터 수집 자동화
+* 웹 크롤링 데이터 정제·전처리 및 DB 적재를 위한 ETL Pipeline 구축
+* SQL 기반 데이터 조회 및 테이블 설계·관리
+
+---
+
+# 🛠️ Tech Stack
+
+### Languages
+
+<img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+### Data & Analysis
+
+<img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/-XGBoost-EC6B23?style=for-the-badge&logo=xgboost&logoColor=white"/>
+<img src="https://img.shields.io/badge/-LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white"/>
+
+### Crawling & Automation
+
+<img src="https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
+<img src="https://img.shields.io/badge/-BeautifulSoup-000000?style=for-the-badge&logo=python&logoColor=white"/>
 
 ### Database
-<img src="https://img.shields.io/badge/-mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/-mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/-sequel ace-D71F00?style=for-the-badge&logo=&logoColor=white"/>
 
-### IDE
-<img src="https://img.shields.io/badge/-vscode-40AEF0?style=for-the-badge&logo=&logoColor=white"/> <img src="https://img.shields.io/badge/-pycharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/-Colab-40AEF0?style=for-the-badge&logo=&logoColor=white"/>
+<img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/-SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white"/>
 
-### Collaboration
-<img src="https://img.shields.io/badge/-slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/-docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white">
+### Backend & DevOps
 
-## 🏫Project🏫
+<img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
-### 1. Path-finder 1차 (2024.01.09 - 2024.01.17)
+### AI
 
-- **인원** : 4명
-- **목적** : 나만의 맞춤형 여행 계획 서비스 계획
-- **스킬** : Python, MongoDB, Selenium
-- **담당 업무** : 셀레니움을 활용한 고속버스, 숙소 예약 정보 스크래핑
-- **파일** : [AI_L.K.J](https://github.com/nohjuhyeon/AI_L.K.J)
+**Prompt Engineering · LLM · Generative AI**
 
-### 2. Path-finder 2차 (2024.02.21 - 2024.03.21)
+---
 
-- **인원** : 5명
-- **목적** : 데이터 기반 맞춤형 여행 추천 서비스
-- **스킬** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
-- **담당 업무** : 관광객 관련 데이터 수집 및 관광지 추천을 위한 분석
-- **파일** : [AI_L.K.J_hubs](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
+# 🚀 Featured Project
 
-### 3. Path-finder 3차 (2024.04.18 ~ 2024.05.22)
+## FATE — Financial Analysis Trend Engine
 
-- **인원** : 6명
-- **목적** : 맞춤형 여행 계획 서비스 마케팅 전략 수립
-- **스킬** : Python, MongoDB, Selenium, Docker, Pandas, Matplotlib, Seaborn, Jira
-- **담당 업무** : 웹 사이트의 마케팅 방안 분석
-- **파일** : [AI_LKJ_hubs_fastapi](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
+> **생성형 AI 기반 금융시장 분석 및 투자 의사결정 지원 시스템**
 
-### 4. 게임 건의사항 분석 및 기획 프로젝트 (2024.10.22 ~ 2024.11.14)
+금융시장 데이터를 수집·정제하고,
+데이터 분석과 머신러닝, 생성형 AI를 결합해 투자 분석을 지원하는 개인 프로젝트입니다.
 
-- **목적** : 게임 방향성 제시 및 업데이트 방안 수립
-- **스킬** : Python, Selenium, Pandas, Matplotlib, Konlpy, Seaborn, Colab
-- **담당 업무** : 건의사항 데이터 수집 및 텍스트 분석, 간단한 기획
-- **파일** : [summoners_war_development_analysis](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
+### Architecture
 
-### 5. 심장병 예측 모델 개발 프로젝트 (2024.11.20 ~ 2024.11.26)
+```text
+Financial Data
+      ↓
+ETL Pipeline
+      ↓
+MySQL
+      ↓
+EDA & Feature Engineering
+      ↓
+ML Prediction
+      ↓
+LLM Analysis
+      ↓
+Dashboard
+```
 
-- **목적** : 생체 및 생활 데이터를 이용한 심장병 예측 모델 개발
-- **스킬** : Python, Pandas, Matplotlib, Seaborn, Scipy, Sklearn
-- **담당 업무** : 심장 질환과 관련된 데이터 시각화, 심장병 예측 모델 개발(머신러닝)
-- **파일** : [heart_disease_predictions](https://github.com/SeokcheonMoon/heart_disease_predictions)
+### Current Progress
 
-### 6. 데이콘 - 전기차 가격 예측 해커톤 (2025.01.05 ~)
+* ✅ MySQL 기반 금융 데이터베이스 설계
+* ✅ 국내 주식 종목 및 일별 OHLCV 데이터 수집
+* ✅ KOSPI 시장 지표 수집
+* ✅ 증분 데이터 적재 ETL Pipeline 구축
+* ✅ ETL 실행 로그 관리
+* 🔄 금융 데이터 EDA 및 Feature Engineering
+* 🔄 머신러닝 기반 예측 모델
+* 🔄 LLM 기반 투자 분석 및 리포트
+* 🔄 Streamlit Dashboard
 
-- **목적** : 가격을 예측하는 AI 알고리즘을 개발
-- **스킬** : Python, Pandas, Seaborn, XGBoost, LightGBM
-- **담당 업무** : 전기차 데이터를 활용한 시각화 및 가격 예측 모델 개발
-- **파일** : [dacon_EV_analysis](https://github.com/SeokcheonMoon/dacon_EV_analysis)
+**Tech:** `Python` `MySQL` `SQLAlchemy` `FinanceDataReader` `yfinance` `Pandas` `XGBoost` `LightGBM` `LLM` `Streamlit`
 
-<!---
-SeokcheonMoon/SeokcheonMoon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+👉 [FATE Repository](https://github.com/SeokcheonMoon/fate)
+
+---
+
+# 📌 Other Projects
+
+### EV Price Prediction
+
+**데이콘 전기차 가격 예측 해커톤**
+
+* 전기차 데이터를 활용한 EDA 및 데이터 전처리
+* XGBoost / LightGBM 기반 가격 예측
+* Python · Pandas · Seaborn
+
+👉 [Repository](https://github.com/SeokcheonMoon/dacon_EV_analysis)
+
+### Game Feedback Analysis
+
+**게임 이용자 건의사항 데이터 분석 및 기획**
+
+* Selenium 기반 건의사항 데이터 수집
+* 텍스트 데이터 분석 및 시각화
+* 분석 결과를 기반으로 게임 업데이트 방향 및 기획안 도출
+
+👉 [Repository](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
+
+### Path-finder
+
+**데이터 기반 맞춤형 여행 추천 서비스**
+
+* Selenium 기반 관광·숙박·교통 데이터 수집
+* MongoDB 데이터 관리
+* 관광객 데이터 분석 및 추천 서비스 개발
+
+👉 [Repository](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
+
+---
+
+# 📦 Archive
+
+* [Heart Disease Prediction](https://github.com/SeokcheonMoon/heart_disease_predictions)
+* [Path-finder 1차](https://github.com/nohjuhyeon/AI_L.K.J)
+* [Path-finder 3차 / FastAPI](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
