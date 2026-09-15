@@ -48,114 +48,161 @@ Python을 기반으로 데이터를 수집·가공하고,
 
 # 🛠️ Tech Stack
 
-### Languages
+### Core
 
-<img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+`Python` · `JavaScript` · `SQL`
 
-### Data & Analysis
+### Data Engineering & Analysis
 
-<img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/-XGBoost-EC6B23?style=for-the-badge&logo=xgboost&logoColor=white"/>
-<img src="https://img.shields.io/badge/-LightGBM-02569B?style=for-the-badge&logo=lightgbm&logoColor=white"/>
+`Pandas` · `NumPy` · `SciPy` · `MySQL` · `SQLAlchemy` · `KRX Open API` · `ETL Pipeline`
 
-### Crawling & Automation
+- 공식·외부 데이터를 수집하고, 정제·적재·재처리 가능한 데이터 파이프라인 설계
+- EDA, 가설검정(CDA), 피처 엔지니어링을 통한 데이터 분석
+- 데이터 품질 검증, 실행 이력 관리, 증분 적재 자동화
 
-<img src="https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
-<img src="https://img.shields.io/badge/-BeautifulSoup-000000?style=for-the-badge&logo=python&logoColor=white"/>
+### Machine Learning
 
-### Database
+`scikit-learn` · `XGBoost` · `LightGBM`
 
-<img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/-SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white"/>
+- 불균형 데이터 분석 및 분류·회귀 모델 비교
+- 워크포워드 검증과 독립 홀드아웃 평가를 통한 데이터 누수 방지
+- ROC-AUC, PR-AUC, F2 등 문제 목적에 맞는 지표 기반 모델 평가
 
-### Backend & DevOps
+### Generative AI & Automation
 
-<img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+`OpenAI API` · `Gemini API` · `Prompt Engineering` · `Playwright` · `Selenium` · `BeautifulSoup` · `Requests`
 
-### AI
+- 생성형 AI 기반 콘텐츠·리포트 생성 흐름 설계
+- 웹 크롤링, 브라우저 제어, 반복 업무 자동화
+- 사용자 검토 단계를 유지하는 안전한 발행·운영 자동화
 
-**Prompt Engineering · LLM · Generative AI**
+### Service & Visualization
 
----
+`Streamlit` · `Plotly` · `Node.js` · `FastAPI` · `Docker`
 
-# 🚀 Featured Project
-
-## FATE — Financial Analysis Trend Engine
-
-> **생성형 AI 기반 금융시장 분석 및 투자 의사결정 지원 시스템**
-
-금융시장 데이터를 수집·정제하고,
-데이터 분석과 머신러닝, 생성형 AI를 결합해 투자 분석을 지원하는 개인 프로젝트입니다.
-
-### Architecture
-
-```text
-Financial Data
-      ↓
-ETL Pipeline
-      ↓
-MySQL
-      ↓
-EDA & Feature Engineering
-      ↓
-ML Prediction
-      ↓
-LLM Analysis
-      ↓
-Dashboard
-```
-
-### Current Progress
-
-* ✅ MySQL 기반 금융 데이터베이스 설계
-* ✅ 국내 주식 종목 및 일별 OHLCV 데이터 수집
-* ✅ KOSPI 시장 지표 수집
-* ✅ 증분 데이터 적재 ETL Pipeline 구축
-* ✅ ETL 실행 로그 관리
-* 🔄 금융 데이터 EDA 및 Feature Engineering
-* 🔄 머신러닝 기반 예측 모델
-* 🔄 LLM 기반 투자 분석 및 리포트
-* 🔄 Streamlit Dashboard
-
-**Tech:** `Python` `MySQL` `SQLAlchemy` `FinanceDataReader` `yfinance` `Pandas` `XGBoost` `LightGBM` `LLM` `Streamlit`
-
-👉 [FATE Repository](https://github.com/SeokcheonMoon/fate)
+- 분석·예측 결과를 확인할 수 있는 대시보드와 로컬 서비스 구현
+- 데이터 처리부터 사용자 화면까지 연결하는 서비스 개발
 
 ---
 
-# 📌 Other Projects
+# 🚀 Featured Projects
+
+## 01. FATE — Financial Analysis Trend Engine
+
+> **KRX 공식 데이터 기반 KOSPI 금융 분석 및 다음 거래일 상승 가능성 예측 시스템**
+
+국내 주식 데이터를 안정적으로 수집·관리하고, EDA·피처 엔지니어링·머신러닝 검증·일일 예측 대시보드까지 연결한 개인 프로젝트입니다.
+
+### What I Built
+
+- KRX Open API 기반 KOSPI 종목 마스터 및 일별 OHLCV 데이터 수집
+- 날짜 단위 Upsert, 재시도, ETL 로그, 증분 적재를 적용한 데이터 파이프라인 구축
+- KOSPI 944종목, OHLCV 675,189건 데이터셋 구성 및 품질 검증
+- 기술지표와 시장 피처를 활용한 다음 거래일 상승 가능성 예측
+- Logistic Regression, Random Forest, XGBoost, LightGBM 모델 비교
+- 워크포워드 검증 및 독립 홀드아웃 평가
+- 종목별 예측 확률, 상위 20개 종목, 예측 성과를 보여주는 Streamlit 대시보드 구현
+
+### Key Result
+
+- 최종 홀드아웃 ROC-AUC: **0.5800**
+- 상승확률 상위 20% 종목의 실제 상승률: 전체 종목 대비 **+10.90%p**
+- 예측 결과를 투자 권유가 아닌 **분석 참고용 순위 정보**로 명확히 한정
+
+**Tech**  
+`Python` `KRX Open API` `MySQL` `SQLAlchemy` `Pandas` `scikit-learn` `XGBoost` `LightGBM` `Streamlit` `Plotly`
+
+👉 [Repository](https://github.com/SeokcheonMoon/fate)
+
+---
+
+## 02. 티스토리 콘텐츠 자동화
+
+> **키워드 입력부터 AI 콘텐츠·썸네일 생성, 예약 발행 보조까지 연결한 개인용 콘텐츠 자동화 도구**
+
+반복적인 블로그 콘텐츠 제작 과정을 줄이기 위해 생성형 AI와 브라우저 자동화를 결합한 로컬 서비스입니다.
+
+### What I Built
+
+- 키워드 한 줄당 블로그 글 한 편을 생성하는 다중 콘텐츠 생성 흐름
+- Gemini와 GPT 중 원하는 모델을 선택하는 콘텐츠 생성 기능
+- AI 기반 제목, HTML 본문, 해시태그 생성
+- Gemini 이미지 모델 기반 썸네일 생성 및 비율 선택 기능
+- Playwright로 티스토리 편집기의 제목·본문·태그 입력 자동화
+- 여러 글을 한 시간 간격으로 예약 발행하는 흐름 구현
+- 캡챠와 로그인은 사용자가 직접 처리하도록 설계해 계정 통제권 유지
+
+**Tech**  
+`Node.js` `JavaScript` `Gemini API` `OpenAI API` `Playwright` `HTML/CSS`
+
+---
+
+## 03. Heart Disease Prediction
+
+> **31만여 명의 건강 설문 데이터를 활용한 심장질환 위험 신호 분류 분석 프로젝트**
+
+불균형 데이터 환경에서 심장질환 위험 신호를 분석하고, 통계 검정과 독립 테스트를 통해 모델 성능을 검증했습니다.
+
+### What I Built
+
+- 319,795명 응답 데이터와 17개 건강·생체 특성 분석
+- EDA를 통한 클래스 불균형 및 특성별 유병률 패턴 확인
+- 카이제곱 검정, Mann–Whitney U 검정, FDR 보정을 활용한 CDA 수행
+- 데이터 누수를 막기 위한 Pipeline 기반 전처리와 계층 분할
+- Logistic Regression과 Random Forest 성능 비교
+- 검증 세트에서 F2 기준 임계값 선택 후 독립 테스트 평가
+
+### Key Result
+
+- 테스트 ROC-AUC: **0.837**
+- 심장질환 재현율: **73.3%**
+- 의료 진단 도구가 아닌 **연구·학습용 위험 신호 분석**으로 해석 범위 명시
+
+**Tech**  
+`Python` `Pandas` `NumPy` `SciPy` `scikit-learn` `Matplotlib`
+
+👉 [Repository](https://github.com/SeokcheonMoon/heart_disease_predictions)
+
+---
+
+# 📌 Additional Projects
 
 ### EV Price Prediction
 
 **데이콘 전기차 가격 예측 해커톤**
 
-* 전기차 데이터를 활용한 EDA 및 데이터 전처리
-* XGBoost / LightGBM 기반 가격 예측
-* Python · Pandas · Seaborn
+- 전기차 가격 데이터 EDA 및 전처리
+- XGBoost, LightGBM 기반 회귀 모델 실험
+- 데이터 시각화 및 예측 결과 비교
+
+**Tech**  
+`Python` `Pandas` `Seaborn` `XGBoost` `LightGBM`
 
 👉 [Repository](https://github.com/SeokcheonMoon/dacon_EV_analysis)
 
 ### Game Feedback Analysis
 
-**게임 이용자 건의사항 데이터 분석 및 기획**
+**게임 이용자 건의사항 데이터 분석 및 업데이트 기획 프로젝트**
 
-* Selenium 기반 건의사항 데이터 수집
-* 텍스트 데이터 분석 및 시각화
-* 분석 결과를 기반으로 게임 업데이트 방향 및 기획안 도출
+- Selenium 기반 이용자 건의사항 데이터 수집
+- 텍스트 데이터 분석과 시각화
+- 분석 결과를 바탕으로 게임 업데이트 방향 및 기획안 제안
+
+**Tech**  
+`Python` `Selenium` `Pandas` `Data Visualization`
 
 👉 [Repository](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
 
 ### Path-finder
 
-**데이터 기반 맞춤형 여행 추천 서비스**
+**관광·숙박·교통 데이터를 활용한 맞춤형 여행 추천 서비스**
 
-* Selenium 기반 관광·숙박·교통 데이터 수집
-* MongoDB 데이터 관리
-* 관광객 데이터 분석 및 추천 서비스 개발
+- 관광·숙박·교통 데이터 수집 자동화
+- MongoDB 기반 데이터 관리
+- 관광객 데이터 분석 및 추천 서비스 개발
+
+**Tech**  
+`Python` `Selenium` `MongoDB` `FastAPI`
 
 👉 [Repository](https://github.com/nohjuhyeon/AI_L.K.J_hubs)
 
@@ -163,6 +210,5 @@ Dashboard
 
 # 📦 Archive
 
-* [Heart Disease Prediction](https://github.com/SeokcheonMoon/heart_disease_predictions)
-* [Path-finder 1차](https://github.com/nohjuhyeon/AI_L.K.J)
-* [Path-finder 3차 / FastAPI](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
+- [Path-finder 1차](https://github.com/nohjuhyeon/AI_L.K.J)
+- [Path-finder 3차 / FastAPI](https://github.com/nohjuhyeon/AI_LKJ_hubs_fastapi)
