@@ -64,7 +64,7 @@ Python을 기반으로 데이터를 수집·가공하고,
 - Redis TTL을 활용한 데이터 보관 기간과 Lua 기반 중복 집계 방지 구현
 - Vercel Cron으로 한국·미국 증시 브리핑의 일일 자동 갱신 구성
 - 배포용 빌드, 상태 확인 API, 메타데이터 검사를 통한 운영 점검
-- 
+  
 ### Web & Service Development
 
 `Next.js` · `React` · `Node.js` · `FastAPI` · `HTML/CSS` · `Vercel` · `Docker`
