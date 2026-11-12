@@ -52,6 +52,19 @@ Python을 기반으로 데이터를 수집·가공하고,
 
 `Python` · `JavaScript` · `TypeScript` · `SQL`
 
+### Infrastructure, Deployment & Operations
+
+`GitHub` · `Vercel` · `Gabia` · `DNS` · `Upstash Redis` · `Vercel Cron`
+
+- 가비아에서 구매한 도메인을 DNS 설정으로 Vercel 배포 서비스에 연결
+- 사용자 지정 도메인 `www.moneykawaii.store`를 적용한 웹서비스 구축
+- GitHub 비공개 저장소와 Vercel을 연동해 코드 변경에 따른 자동 배포 구성
+- Vercel 환경변수로 API 키·Redis 토큰·예약 실행 비밀키 관리
+- Upstash Redis를 연결해 증시 브리핑, 방문 통계와 재방문 이력 저장
+- Redis TTL을 활용한 데이터 보관 기간과 Lua 기반 중복 집계 방지 구현
+- Vercel Cron으로 한국·미국 증시 브리핑의 일일 자동 갱신 구성
+- 배포용 빌드, 상태 확인 API, 메타데이터 검사를 통한 운영 점검
+- 
 ### Web & Service Development
 
 `Next.js` · `React` · `Node.js` · `FastAPI` · `HTML/CSS` · `Vercel` · `Docker`
@@ -131,6 +144,8 @@ Python을 기반으로 데이터를 수집·가공하고,
 - IP 원문 대신 HMAC 변환 값을 활용한 일별 방문 중복 제거·재방문 이력 저장
 - 네이버 블로그 RSS를 연동한 ‘텐버거 인사이트’ 최신 글 목록 구현
 - Open Graph, 검색 소유권 확인 태그, 페이지별 SEO와 배포 환경 구성
+- 가비아 도메인·DNS와 Vercel을 연결해 사용자 지정 도메인으로 서비스 배포
+- GitHub 자동 배포, 서버 환경변수, Upstash Redis와 예약 실행을 연결한 운영 환경 구성
 
 ### Engineering Highlights
 
