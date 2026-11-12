@@ -50,15 +50,27 @@ Python을 기반으로 데이터를 수집·가공하고,
 
 ### Core
 
-`Python` · `JavaScript` · `SQL`
+`Python` · `JavaScript` · `TypeScript` · `SQL`
+
+### Web & Service Development
+
+`Next.js` · `React` · `Node.js` · `FastAPI` · `HTML/CSS` · `Vercel` · `Docker`
+
+- 사용자 흐름에 맞춘 페이지 구성과 반응형 웹 인터페이스 구현
+- 재사용 가능한 컴포넌트와 타입 기반 입력·응답 구조 설계
+- 클라이언트 계산, 서버 API, 외부 데이터 연동을 연결하는 서비스 개발
+- GitHub·Vercel 기반 배포와 환경변수 관리
+- Open Graph, 페이지별 메타데이터, sitemap·robots 등 검색·공유 환경 구성
 
 ### Data Engineering & Analysis
 
-`Pandas` · `NumPy` · `SciPy` · `MySQL` · `SQLAlchemy` · `KRX Open API` · `ETL Pipeline`
+`Pandas` · `NumPy` · `SciPy` · `MySQL` · `SQLAlchemy` · `Redis` · `KRX Open API` · `ETL Pipeline`
 
 - 공식·외부 데이터를 수집하고, 정제·적재·재처리 가능한 데이터 파이프라인 설계
 - EDA, 가설검정(CDA), 피처 엔지니어링을 통한 데이터 분석
 - 데이터 품질 검증, 실행 이력 관리, 증분 적재 자동화
+- Redis 기반 공유 데이터 저장, TTL 적용, Lua를 활용한 원자적 중복 처리
+- 데이터의 사용 목적에 따른 서버 저장소·브라우저 저장소 구분
 
 ### Machine Learning
 
@@ -73,21 +85,105 @@ Python을 기반으로 데이터를 수집·가공하고,
 `OpenAI API` · `Gemini API` · `Prompt Engineering` · `Playwright` · `Selenium` · `BeautifulSoup` · `Requests`
 
 - 생성형 AI 기반 콘텐츠·리포트 생성 흐름 설계
-- 웹 크롤링, 브라우저 제어, 반복 업무 자동화
-- 사용자 검토 단계를 유지하는 안전한 발행·운영 자동화
+- Google 검색 근거를 활용한 요약 생성과 응답 형식·기준일 검증
+- 웹 크롤링, RSS 연동, 브라우저 제어, 반복 업무 자동화
+- 예약 실행, 실패 시 이전 데이터 유지, 중복 호출 제한 등 운영 흐름 구성
+- 사용자 검토 단계를 유지하는 발행·운영 자동화
 
-### Service & Visualization
+### AI-Assisted Development & Vibe Coding
 
-`Streamlit` · `Plotly` · `Node.js` · `FastAPI` · `Docker`
+`Codex` · `Requirements Engineering` · `Code Review` · `Regression Testing`
 
-- 분석·예측 결과를 확인할 수 있는 대시보드와 로컬 서비스 구현
-- 데이터 처리부터 사용자 화면까지 연결하는 서비스 개발
+- 자연어 요구사항을 화면 구성·데이터 흐름·예외 조건으로 구체화
+- AI 개발 도구를 활용해 기존 프로젝트 구조에 맞는 기능 구현·수정 진행
+- 생성된 코드의 입력 검증, 비동기 처리, 비밀키 노출 여부와 저장 정책 점검
+- 운영 중 발견한 문제를 원인 분석 → 로직 수정 → 회귀 테스트로 연결
+- 구현 결과와 검증 한계를 구분해 README·릴리스 기록으로 문서화
+
+### Visualization & Quality
+
+`Streamlit` · `Plotly` · `Matplotlib` · `SVG` · `Node.js Test Runner`
+
+- 분석·예측 결과를 확인할 수 있는 대시보드 구현
+- 포트폴리오 구성과 지출 비중을 보여주는 시각화 개발
+- 계산 공식, 날짜 경계, 외부 응답 실패, 데이터 복원 등에 대한 자동 테스트
+- TypeScript 검사와 프로덕션 빌드를 통한 배포 전 검증
 
 ---
 
 # 🚀 Featured Projects
 
-## 01. FATE — Financial Analysis Trend Engine
+## 01. 머니카와이 — MoneyKawaii
+
+> **금융·급여 계산기, 배당 포트폴리오, 가계부와 AI 증시 브리핑을 연결한 한국형 웹 플랫폼**
+
+로그인 없이 필요한 도구를 바로 이용할 수 있도록 구성한 개인 웹서비스입니다. Codex를 개발 보조 도구로 활용하며 요구사항 구체화, 기능 설계, 외부 서비스 연결, 테스트와 배포까지 개발 흐름을 관리했습니다.
+
+### What I Built
+
+- Next.js·React·TypeScript 기반 반응형 웹사이트와 공통 컴포넌트 구성
+- 금융 계산기 4개, 급여·근로 계산기 4개와 달력형 가계부 구현
+- 한국·미국 종목명·코드·티커 검색과 공개 배당 자료 조회 연결
+- 보유 수량·평균 주가에 따른 포트폴리오 비중, 예상 배당금·배당률 계산
+- 원화·달러 혼합 포트폴리오의 통화 환산과 시각화 구현
+- localStorage 기반 가계부 저장, JSON 백업·병합, 월·연 PNG 저장
+- Gemini·Google 검색·Vercel Cron·Redis를 연결한 한국·미국 증시 브리핑 구성
+- IP 원문 대신 HMAC 변환 값을 활용한 일별 방문 중복 제거·재방문 이력 저장
+- 네이버 블로그 RSS를 연동한 ‘텐버거 인사이트’ 최신 글 목록 구현
+- Open Graph, 검색 소유권 확인 태그, 페이지별 SEO와 배포 환경 구성
+
+### Engineering Highlights
+
+**생성일과 거래일을 구분한 AI 응답 검증**
+
+오늘 생성된 브리핑이 과거 거래일 자료를 요약하는 문제를 확인했습니다. 한국·미국의 시간대와 주말을 반영해 대상 거래일을 계산하고, 반환된 거래일이 다르면 새 결과로 저장하지 않도록 개선했습니다.
+
+**비동기 응답과 중복 요청 처리**
+
+검색어·통화 변경 시 이전 응답이 최신 입력을 덮어쓰지 않도록 요청 취소와 버전 검사를 적용했습니다. 방문 통계는 Redis Lua로 중복 판정과 합계 증가를 묶어 처리했습니다.
+
+**사용자 기록 보존과 복원 설계**
+
+가계부의 이미지 저장과 데이터 백업을 구분했습니다. JSON 형식·날짜·금액·중복 ID를 검증하고, 기존 기록을 덮어쓰지 않는 병합 흐름을 구성했습니다.
+
+### Key Result
+
+- **금융·급여 계산기 8개와 가계부**를 하나의 서비스로 통합
+- **한국·미국 17,321개 종목 스냅샷** 기반 검색 구성
+- **자동 테스트 60개**, TypeScript 검사·프로덕션 빌드 통과
+- 실제 운영 문제를 거래일 검증·중복 집계·데이터 복원 회귀 테스트로 연결
+
+※ 종목 수는 2026-10-18 스냅샷 기준입니다. IP 기반 집계에는 공유 IP·동적 IP에 따른 오차가 있으며, AI 요약의 사실성과 외부 서비스 연결은 운영 환경에서 별도 확인합니다.
+
+**Tech**  
+`Next.js` `React` `TypeScript` `CSS` `Node.js` `Gemini API` `Google Search Grounding` `Redis` `Lua` `RSS` `Vercel` `Codex`
+
+👉 [Live Service](https://www.moneykawaii.store)
+
+---
+
+## 03. 티스토리 콘텐츠 자동화
+
+> **키워드 입력부터 AI 콘텐츠·썸네일 생성, 예약 발행 보조까지 연결한 개인용 콘텐츠 자동화 도구**
+
+반복적인 블로그 콘텐츠 제작 과정을 줄이기 위해 생성형 AI와 브라우저 자동화를 결합한 로컬 서비스입니다.
+
+### What I Built
+
+- 키워드 한 줄당 블로그 글 한 편을 생성하는 다중 콘텐츠 생성 흐름
+- Gemini와 GPT 중 원하는 모델을 선택하는 콘텐츠 생성 기능
+- AI 기반 제목, HTML 본문, 해시태그 생성
+- Gemini 이미지 모델 기반 썸네일 생성 및 비율 선택 기능
+- Playwright로 티스토리 편집기의 제목·본문·태그 입력 자동화
+- 여러 글을 한 시간 간격으로 예약 발행하는 흐름 구현
+- 캡챠와 로그인은 사용자가 직접 처리하도록 설계해 계정 통제권 유지
+
+**Tech**  
+`Node.js` `JavaScript` `Gemini API` `OpenAI API` `Playwright` `HTML/CSS`
+
+---
+
+## 02. FATE — Financial Analysis Trend Engine
 
 > **KRX 공식 데이터 기반 KOSPI 금융 분석 및 다음 거래일 상승 가능성 예측 시스템**
 
@@ -116,28 +212,7 @@ Python을 기반으로 데이터를 수집·가공하고,
 
 ---
 
-## 02. 티스토리 콘텐츠 자동화
-
-> **키워드 입력부터 AI 콘텐츠·썸네일 생성, 예약 발행 보조까지 연결한 개인용 콘텐츠 자동화 도구**
-
-반복적인 블로그 콘텐츠 제작 과정을 줄이기 위해 생성형 AI와 브라우저 자동화를 결합한 로컬 서비스입니다.
-
-### What I Built
-
-- 키워드 한 줄당 블로그 글 한 편을 생성하는 다중 콘텐츠 생성 흐름
-- Gemini와 GPT 중 원하는 모델을 선택하는 콘텐츠 생성 기능
-- AI 기반 제목, HTML 본문, 해시태그 생성
-- Gemini 이미지 모델 기반 썸네일 생성 및 비율 선택 기능
-- Playwright로 티스토리 편집기의 제목·본문·태그 입력 자동화
-- 여러 글을 한 시간 간격으로 예약 발행하는 흐름 구현
-- 캡챠와 로그인은 사용자가 직접 처리하도록 설계해 계정 통제권 유지
-
-**Tech**  
-`Node.js` `JavaScript` `Gemini API` `OpenAI API` `Playwright` `HTML/CSS`
-
----
-
-## 03. Heart Disease Prediction
+## 04. Heart Disease Prediction
 
 > **31만여 명의 건강 설문 데이터를 활용한 심장질환 위험 신호 분류 분석 프로젝트**
 
@@ -166,32 +241,6 @@ Python을 기반으로 데이터를 수집·가공하고,
 ---
 
 # 📌 Additional Projects
-
-### EV Price Prediction
-
-**데이콘 전기차 가격 예측 해커톤**
-
-- 전기차 가격 데이터 EDA 및 전처리
-- XGBoost, LightGBM 기반 회귀 모델 실험
-- 데이터 시각화 및 예측 결과 비교
-
-**Tech**  
-`Python` `Pandas` `Seaborn` `XGBoost` `LightGBM`
-
-👉 [Repository](https://github.com/SeokcheonMoon/dacon_EV_analysis)
-
-### Game Feedback Analysis
-
-**게임 이용자 건의사항 데이터 분석 및 업데이트 기획 프로젝트**
-
-- Selenium 기반 이용자 건의사항 데이터 수집
-- 텍스트 데이터 분석과 시각화
-- 분석 결과를 바탕으로 게임 업데이트 방향 및 기획안 제안
-
-**Tech**  
-`Python` `Selenium` `Pandas` `Data Visualization`
-
-👉 [Repository](https://github.com/SeokcheonMoon/summoners_war_development_analysis)
 
 ### Path-finder
 
